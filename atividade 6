@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    double num;
+
+    printf("digite um numero real:");
+    scanf("%1f", & num);
+
+    int parte_inteira = (int) floor (num);
+
+    printf("A parte inteira de %.21f é %d", num, parte_inteira);
+    
+        return 0;
+    }
